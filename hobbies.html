@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HaFa</title>
+<link rel="stylesheet" href="styles.css">
+<!-- <link rel="stylesheet" href="latex.css"> -->
+<!-- <link href="http://fonts.cdnfonts.com/css/modern-typewriter" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+
+  <script>
+    var year = 2022, month = 9-1, day = 6;
+  </script>
+
+ <div class="center">
+  <div class="topnav"   >
+    <a href="index.html">HOME</a>
+    <a href="cv.html">CV</a>
+    <a href="#research">RESEARCH</a>
+    <a  href="blog.html">BLOG</a>
+    <a class="active" href="hobbies.html">HOBBIES</a>
+  </div> 
+ </div>
+
+<div style="max-width: 610px;" class="center"  >
+  <div >
+    <h3>Illustrations</h3>
+    <img style="max-width: 300px;" src="illustrations/guitar-01.png">
+    <img style="max-width: 300px;" src="illustrations/nokia3310_no_number-01.png">
+    <img style="max-width: 300px;" src="illustrations/nokia3310typography-01.png">
+    <img style="max-width: 300px;" src="illustrations/hashtolipigif-01.png">
+    </div>
+</div>
+
+<div class="center">
+  <footer>
+    <p style="font-size: 8pt ;" id="lastUp"></p>
+  </footer>
+</div> 
+  <script>
+  const d =  new Date(year, month, day);
+    document.getElementById("lastUp").innerHTML = "Last updated: "+d.toDateString();
+  </script>
+</body>
+</html>
