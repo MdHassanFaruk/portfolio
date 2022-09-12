@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HaFa</title>
+<link rel="stylesheet" href="styles.css">
+<!-- <link rel="stylesheet" href="latex.css"> -->
+<!-- <link href="http://fonts.cdnfonts.com/css/modern-typewriter" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+
+  <script>
+    var year = 2022, month = 9-1, day = 13;
+  </script>
+
+ <div class="center">
+  <div class="topnav"   >
+    <a href="index.html">HOME</a>
+    <a href="cv.html">CV</a>
+    <a class="active" href="research.html">RESEARCH</a>
+    <a href="blog.html">BLOG</a>
+    <!-- <a href="hobbies.html">HOBBIES</a> -->
+  </div> 
+ </div>
+
+<div class="center"  >
+  <div class="blogDiv">
+    <p>
+        under construction...
+        <br>
+      </p>
+    </div>
+</div>
+
+<div class="center">
+  <footer>
+    <p style="font-size: 8pt ;" id="lastUp"></p>
+  </footer>
+</div> 
+  <script>
+  const d =  new Date(year, month, day);
+    document.getElementById("lastUp").innerHTML = "Last updated: "+d.toDateString();
+  </script>
+</body>
+</html>
