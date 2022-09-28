@@ -1,0 +1,51 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HaFa</title>
+<link rel="stylesheet" href="latex.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <script>
+    var year = 2022, month = 9-1, day = 21;
+  </script>
+
+ <div class="center">
+  <div class="topnav"   >
+    <a href="index.html">HOME</a>
+    <a href="cv.html">CV</a>
+    <!-- <a href="research.html">RESEARCH</a> -->
+    <!-- <a href="blog.html">BLOG</a> -->
+    <!-- <a href="hobbies.html">HOBBIES</a> -->
+    <a class="active" href="teaching.html">Teaching</a>
+  </div> 
+ </div>
+
+<div class="center"  >
+  <div class="cvDiv">
+    <ul>
+        <li>
+            Term: Fall'22(24-Sep-2022 to Dec'22)
+            <ul>
+                <li>MAT 110: Differential Calculus and Co-ordinate Geometry</li>
+                <ul>
+                    <li><a href="class.pdf">lecture 1</a></li>
+                </ul>
+            </ul>
+        </li>
+    </ul>
+  </div>
+</div>
+<div class="center">
+  <footer>
+    <p style="font-size: 8pt ;" id="lastUp"></p>
+  </footer>
+</div> 
+  <script>
+  const d =  new Date(year, month, day);
+    document.getElementById("lastUp").innerHTML = "Last updated: "+d.toDateString();
+  </script>
+</body>
+</html>
