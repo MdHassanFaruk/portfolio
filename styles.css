@@ -1,6 +1,6 @@
 body{
-  background-color:oldlace;
-  color: #2f2f2f;
+  background-color: oldlace;
+  color: rgb(47, 47, 47);
   padding: 20px 20px;
   align-content: center;
   /* margin-right: 50px;
@@ -32,7 +32,7 @@ body{
 .blogDiv{
   text-align: justify;
   text-justify: inter-word;
-  margin-top: 2mm;
+  margin-top: 5mm;
   line-height: 1.25;
   margin-bottom: 2mm;
 }
@@ -54,6 +54,8 @@ body{
 .cvDiv{
   margin-top: 2mm;
   line-height: 1;
+  text-align: justify;
+  /* text-justify: distribute ; */
 }
 
 .cvDiv table, td, th{
