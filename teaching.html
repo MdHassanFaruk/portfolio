@@ -9,7 +9,16 @@
 <body>
 
   <script>
-    var year = 2023, month = 1-1, day = 8;
+    var year = 2023, month = 4-1, day = 6;
+
+    // Get the current count from local storage or set to 0 if it doesn't exist
+    let count = localStorage.getItem("count") || 0;
+    // Increment the count by 1
+    count++;
+    // Update the count in local storage
+    localStorage.setItem("count", count);
+    // document.getElementById("counter").innerHTML = count;
+    
   </script>
 
  <div class="center">
@@ -33,15 +42,15 @@
                 <ul>
                   <li>Quiz questions: </li>
                   <ul>
-                    <li><a href="fall'22_materials\quiz1.pdf">quiz question 1</a></li>
-                    <li><a href="fall'22_materials\quiz2.pdf">quiz question 2</a></li>
-                    <li><a href="fall'22_materials\quiz3.pdf">quiz question 3</a></li>
-                    <li><a href="fall'22_materials\quiz4.pdf">quiz question 4</a></li>
-                    <li><a href="fall'22_materials\quiz5.pdf">quiz question 5</a></li>
-                    <li><a href="fall'22_materials\quiz6.pdf">quiz question 6</a></li>
-                    <li><a href="fall'22_materials\quiz7.pdf">quiz question 7</a></li>
-                    <li><a href="fall'22_materials\quiz8.pdf">quiz question 8</a></li>
-                    <li><a href="fall'22_materials\quiz9.pdf">quiz question 9</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz1.pdf">quiz question 1</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz2.pdf">quiz question 2</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz3.pdf">quiz question 3</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz4.pdf">quiz question 4</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz5.pdf">quiz question 5</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz6.pdf">quiz question 6</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz7.pdf">quiz question 7</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz8.pdf">quiz question 8</a></li>
+                    <li><a href="E:\zwebsite\fall'22_materials\quiz9.pdf">quiz question 9</a></li>
                 </ul>
                 </ul>
             </ul>
