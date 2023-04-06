@@ -10,8 +10,18 @@
 <body>
 
   <script>
-    var year = 2023, month = 1-1, day = 7;
+    var year = 2023, month = 4-1, day = 6;
+
+    // Get the current count from local storage or set to 0 if it doesn't exist
+    let count = localStorage.getItem("count") || 0;
+    // Increment the count by 1
+    count++;
+    // Update the count in local storage
+    localStorage.setItem("count", count);
+    // document.getElementById("counter").innerHTML = count;
+    
   </script>
+
 
  <div class="center">
   <div class="topnav"   >
@@ -35,21 +45,23 @@
   MD HASSAN FARUK<br>
 </div>
   <div style="font-size: 15px;" class="homeCenterText">
-  B.Sc. and M.Sc., Applied Mathematics<br>
-  University of Dhaka<br>
+  <!-- B.Sc. and M.Sc., Applied Mathematics<br>
+  University of Dhaka<br> -->
   <br>
-  Adjunct Lecturer, MNS <br>
+  <!-- Adjunct Lecturer, MNS <br>
   BRAC University<br>
-  <br>
+  <br> -->
   Adjunct Lecturer, Mathematics <br>
+  Monash Pathways (MUFY, MCD),<br>
   Universal College Bangladesh<br>
   <br>
+  <i class="fa fa-linkedin-square" style="font-size: 16px;"></i> <a href="https://www.linkedin.com/in/md-hassan-faruk-cn2836/">connect</a>  
   <i class="fa fa-envelope" style="font-size: 16px;"></i> hfaruk2836@gmail.com<br>
   <i class="fa fa-address-card" style="font-size: 16px;" ></i> Dhaka, Bangladesh<br>
   </div>
   </div>
 
-  <!-- <div class="center">
+  <div class="center">
     <div class="homeDiv">
       <h4>Useful Research tools:</h4>
       <a  href="https://www.labstep.com/" target="_blank">LabStep</a><br>
@@ -58,16 +70,17 @@
       <a href="https://www.quetext.com/plagiarism-checker/students" target="_blank">Quetext</a>
       <br>
     </div>
-  </div> -->
+  </div>
 
- <!-- <div class="center">
-  <div class="homeDiv"> -->
-    <!-- <h4>Useful Blogs:</h4>
+ <div class="center">
+  <div class="homeDiv">
+    <h4>Useful Blogs:</h4>
     <a  href="https://terrytao.wordpress.com/" target="_blank">Terence Tao</a><br>
     <a  href="https://gowers.wordpress.com/" target="_blank">Timothy Gowers</a><br>
     <a  href="https://yufeizhao.com/" target="_blank">Yufei Zhao</a><br>
-    <br> -->
-    <!-- <h4>Miscellaneus Websites:</h4>
+    <br>
+    <h4>Miscellaneus Websites:</h4>
+    <a  href="https://latex.vercel.app/" target="_blank">LaTex like type with CSS</a><br>
     <a  href="https://yourlogicalfallacyis.com/" target="_blank">Logical Fallacy</a><br>
     <a href="https://freelearninglist.org/" target="_blank">freelearninglist</a><br>
     <a  href="https://www.musictheory.net/lessons" target="_blank">Music Theory</a><br>
@@ -75,11 +88,11 @@
     <a  href="https://www.foreignaffairs.com/" target="_blank">Foreign Affairs</a><br>
     <a  href="https://foreignpolicy.com/" target="_blank">Foreign Policy</a><br>
     <a  href="http://epaper.thedailystar.net/" target="_blank">The Daily Star</a><br>
-    <a href="https://tinywow.com/" target="_blank">editPdf</a><br> -->
-    <!-- <a href="https://ncase.me/">nicky case</a><br>
-    <a href="https://explorabl.es/">Explorable Explanations</a><br> -->
-    <!-- </div>
-  </div> -->
+    <a href="https://tinywow.com/" target="_blank">editPdf</a><br>
+    <a href="https://ncase.me/">nicky case</a><br>
+    <a href="https://explorabl.es/">Explorable Explanations</a><br>
+    </div>
+  </div>
 
   <div class="center">
     <footer>
